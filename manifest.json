@@ -12,5 +12,11 @@
 		},
 		"default_popup": "index.html",
 		"default_title": "Open popup"
+	},
+	"permissions": [
+		"contextMenus"
+	],
+	"background": {
+		"service_worker": "background.js"
 	}
 }
